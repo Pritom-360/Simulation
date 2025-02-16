@@ -1,0 +1,171 @@
+body {
+	--fsAddBuffer: 22px;
+}
+[id='physicsclassroom_leaderboard_atf'],
+[id='physicsclassroom_left_1'],
+[id='physicsclassroom_right_1'],
+[id='physicsclassroom_right_2'],
+[id='physicsclassroom_MOP_left'],
+[id='physicsclassroom_MOP_right'],
+[id='physicsclassroom_MOP_top_2'],
+[id='physicsclassroom_incontent_1'],
+[id='physicsclassroom_incontent_2'],
+[id='physicsclassroom_incontent_3'],
+[id='physicsclassroom_top'],
+[id='physicsclassroom_left_2'],
+[id='physicsclassroom_left_3'],
+[id='physicsclassroom_left_4'],
+[id='physicsclassroom_left_5'],
+[id='physicsclassroom_left_6'] {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: calc(var(--height) + var(--fsAddBuffer));
+	width: 100%;
+}
+[id='physicsclassroom_incontent_1'] {
+		--height: 250px;
+}
+[id='physicsclassroom_incontent_2'] {
+		--height: 250px;
+}
+[id='physicsclassroom_incontent_3'] {
+		--height: 250px;
+}
+[id='physicsclassroom_leaderboard_atf'] {
+		--height: 100px;
+}
+[id='physicsclassroom_right_1'] {
+		--height: 250px;
+}
+[id='physicsclassroom_top'] {
+		--height: 100px;
+}
+@media only screen and (min-width: 320px) {
+	[id='physicsclassroom_MOP_top_2'] {
+		--height: 100px;
+	}
+}
+@media only screen and (min-width: 480px) {
+	[id='physicsclassroom_MOP_top_2'] {
+		--height: 250px;
+	}
+}
+@media only screen and (min-width: 488px) {
+	[id='physicsclassroom_incontent_1'] {
+		--height: 280px;
+	}
+	[id='physicsclassroom_incontent_2'] {
+		--height: 280px;
+	}
+	[id='physicsclassroom_incontent_3'] {
+		--height: 280px;
+	}
+	[id='physicsclassroom_right_1'] {
+		--height: 280px;
+	}
+	[id='physicsclassroom_top'] {
+		--height: 100px;
+	}
+}
+@media only screen and (min-width: 720px) {
+	[id='physicsclassroom_MOP_right'] {
+		--height: 250px;
+	}
+	[id='physicsclassroom_MOP_top_2'] {
+		--height: 60px;
+	}
+}
+@media only screen and (min-width: 730px) {
+	[id='physicsclassroom_MOP_top_2'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 748px) {
+	[id='physicsclassroom_right_1'] {
+		--height: 250px;
+	}
+	[id='physicsclassroom_top'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 900px) {
+	[id='physicsclassroom_MOP_left'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_MOP_right'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_MOP_top_2'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 940px) {
+	[id='physicsclassroom_right_1'] {
+		--height: 600px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	[id='physicsclassroom_left_1'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_left_3'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_left_4'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_left_5'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_left_6'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_right_1'] {
+		--height: 600px;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	[id='physicsclassroom_leaderboard_atf'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 1300px) {
+	[id='physicsclassroom_MOP_left'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_MOP_right'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_MOP_top_2'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 1440px) {
+	[id='physicsclassroom_incontent_1'] {
+		--height: 250px;
+	}
+	[id='physicsclassroom_incontent_2'] {
+		--height: 250px;
+	}
+	[id='physicsclassroom_incontent_3'] {
+		--height: 250px;
+	}
+	[id='physicsclassroom_right_2'] {
+		--height: 600px;
+	}
+	[id='physicsclassroom_top'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 1500px) {
+	[id='physicsclassroom_leaderboard_atf'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 1900px) {
+	[id='physicsclassroom_left_2'] {
+		--height: 600px;
+	}
+}
